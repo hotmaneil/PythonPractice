@@ -66,5 +66,5 @@ if __name__ == '__main__':
     # 建立衍生類別物件：
     education = Teacher('Lisa', 20, 'woman', 'Manage')
     education.show()
-
-    # print()
+    education.setAge(40)
+    education.show()
